@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item android:title="@string/title1"
+        android:icon="@drawable/ic_baseline_home_repair_service_24"
+        />
+    <item android:title="@string/title2"
+        android:icon="@drawable/ic_baseline_chat_24"/>
+    <item android:title="Дополнительная информация">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="Контакты"
+                    android:icon="@drawable/ic_baseline_phone_24"/>
+                <item android:title="О нас"
+                    android:icon="@drawable/ic_baseline_business_24"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
